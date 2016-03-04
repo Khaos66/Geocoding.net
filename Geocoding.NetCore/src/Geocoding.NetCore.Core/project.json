@@ -1,0 +1,18 @@
+{
+    "id": "Geocoding.NetCore.Core",
+    "version": "1.0.0-*",
+    "description": "Core Class Library",
+    "authors": [ "Golois Mouelet" ],
+    "tags": [ "geocoding", "geolocation", "google" ],
+    "projectUrl": "https://github.com/mgolois/Geocoding.net",
+    "licenseUrl": "https://github.com/mgolois/Geocoding.net",
+    "requireLicenseAcceptance": false,
+    "releaseNotes": "Just upgraded Geocoding.Core.dll to Geocoding.NetCore.Coredll",
+    "frameworks": {
+        "net451": {
+        }
+    },
+    "dependencies": {
+        "Newtonsoft.Json": "8.0.2"
+    }
+}

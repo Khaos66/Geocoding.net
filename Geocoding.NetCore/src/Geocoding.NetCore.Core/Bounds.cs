@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Geocoding
+namespace Geocoding.NetCore
 {
 	public class Bounds
 	{

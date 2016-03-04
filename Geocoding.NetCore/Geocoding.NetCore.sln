@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Geocoding.NetCore.Core", "src\Geocoding.NetCore.Core\Geocoding.NetCore.Core.xproj", "{EAA43992-2B9B-40E5-A4DD-2E3793ABCC79}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Geocoding.NetCore.API", "src\Geocoding.NetCore.APIs\Geocoding.NetCore.API.xproj", "{A1D92000-6DA3-42C0-9FBE-D9DC98E4F490}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66A0B3AE-E085-4757-B33C-4331E0B13815}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Tests", "test\Tests.xproj", "{003E1D36-60DC-458C-9DA4-0704715CFE14}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{E0CAC2AF-2D77-4C5E-9039-57AB759DF974}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{B14E31B2-2E82-47D7-BAF6-65F0D73FAFAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA43992-2B9B-40E5-A4DD-2E3793ABCC79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA43992-2B9B-40E5-A4DD-2E3793ABCC79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA43992-2B9B-40E5-A4DD-2E3793ABCC79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA43992-2B9B-40E5-A4DD-2E3793ABCC79}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1D92000-6DA3-42C0-9FBE-D9DC98E4F490}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1D92000-6DA3-42C0-9FBE-D9DC98E4F490}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1D92000-6DA3-42C0-9FBE-D9DC98E4F490}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1D92000-6DA3-42C0-9FBE-D9DC98E4F490}.Release|Any CPU.Build.0 = Release|Any CPU
+		{003E1D36-60DC-458C-9DA4-0704715CFE14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{003E1D36-60DC-458C-9DA4-0704715CFE14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{003E1D36-60DC-458C-9DA4-0704715CFE14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{003E1D36-60DC-458C-9DA4-0704715CFE14}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EAA43992-2B9B-40E5-A4DD-2E3793ABCC79} = {E0CAC2AF-2D77-4C5E-9039-57AB759DF974}
+		{A1D92000-6DA3-42C0-9FBE-D9DC98E4F490} = {E0CAC2AF-2D77-4C5E-9039-57AB759DF974}
+		{003E1D36-60DC-458C-9DA4-0704715CFE14} = {B14E31B2-2E82-47D7-BAF6-65F0D73FAFAC}
+	EndGlobalSection
+EndGlobal

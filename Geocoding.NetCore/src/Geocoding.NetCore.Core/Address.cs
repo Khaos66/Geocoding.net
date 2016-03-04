@@ -1,7 +1,7 @@
 using System;
 using System.Text;
 
-namespace Geocoding
+namespace Geocoding.NetCore
 {
 	/// <summary>
 	/// Most basic and generic form of address.

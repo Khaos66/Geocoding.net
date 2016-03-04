@@ -17,7 +17,7 @@ namespace Geocoding
 		public static void ForEach<T>(this IEnumerable<T> self, Action<T> actor)
 		{
 			if(actor == null)
-				throw new ArgumentNullException("actor");
+				throw new NullReferenceException("actor");
 
 			if (self == null)
 				return;
@@ -29,8 +29,7 @@ namespace Geocoding
 		}
 
 		//Universal ISO DT Converter
-		static readonly JsonConverter[] JSON_CONVERTERS = new JsonConverter[] 
-        { 
+		static readonly JsonConverter[] JSON_CONVERTERS = { 
             new IsoDateTimeConverter { DateTimeStyles = System.Globalization.DateTimeStyles.AssumeUniversal },
             new StringEnumConverter(),
         };

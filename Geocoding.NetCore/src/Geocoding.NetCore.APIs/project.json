@@ -1,0 +1,22 @@
+{
+    "id": "Geocoding.NetCore.APIs",
+    "version": "1.0.0",
+    "description": "Giving an address get geolocation using Google, Yahoo, Microsoft and MapQuest APIs",
+    "authors": [ "Golois Mouelet" ],
+    "tags": [ "geocoding", "geolocation", "google" ],
+    "projectUrl": "https://github.com/mgolois/Geocoding.net",
+    "licenseUrl": "https://github.com/mgolois/Geocoding.net",
+    "requireLicenseAcceptance": false,
+    "releaseNotes": "Just upgraded Geocoding.dll to Geocoding.NetCore.dll",
+    "frameworks": {
+        "net451": {
+            "frameworkAssemblies": {
+                "System.Xml": "4.0.0.0",
+                "System.Runtime.Serialization": "4.0.0.0"
+            }
+        }
+    },
+    "dependencies": {
+        "Geocoding.NetCore.Core": "1.0.0-*"
+    }
+}
